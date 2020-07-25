@@ -5,7 +5,7 @@ import {TodoItem} from '../interfaces/todo-item';
   selector: 'app-todo-item',
   template: `
     <p>
-      todo-item works!
+      {{item.title}}
     </p>
   `,
   styleUrls: ['./todo-item.component.css']
